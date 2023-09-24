@@ -1,4 +1,3 @@
-import type { GetServerSideProps } from 'next';
 import { NextPage } from 'next';
 import React from 'react';
 

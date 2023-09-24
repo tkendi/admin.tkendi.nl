@@ -9,8 +9,6 @@ export const Wrap = styled('div', {
   padding: '15px',
   marginBottom: '30px',
   backgroundColor: '#fefefe',
-
-  '@sm': {},
 });
 
 export const LogoBox = styled('div', {
@@ -25,4 +23,5 @@ export const LogoText = styled(Text, {
   fontWeight: 600,
   lineHeight: '40px',
   textAlign: 'center',
+  color: "$Primary500"
 });

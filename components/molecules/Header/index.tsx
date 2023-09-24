@@ -1,7 +1,6 @@
-import React from 'react';
 import { Dosis } from 'next/font/google';
+import React from 'react';
 
-import Search from '../Search';
 import { LogoBox, LogoText, Wrap } from './style/index.style';
 
 const dosis = Dosis({
@@ -15,7 +14,7 @@ const Header = () => {
       <LogoBox>
         <LogoText className={dosis.variable}>T</LogoText>
       </LogoBox>
-      <Search />
+      {/* <Search /> */}
     </Wrap>
   );
 };

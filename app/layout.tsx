@@ -1,6 +1,8 @@
+import "@/styles/global.css"
 import { Provider } from './provider';
 
 import { getCssText } from '@/styles/stitches.config';
+
 
 export const metadata = {
     title: 'Admin',
