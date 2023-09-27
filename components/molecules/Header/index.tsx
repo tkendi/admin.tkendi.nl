@@ -3,18 +3,12 @@ import React from 'react';
 
 import { LogoBox, LogoText, Wrap } from './style/index.style';
 
-const dosis = Dosis({
-  subsets: ['latin'],
-  variable: '--dosis-font',
-});
-
 const Header = () => {
   return (
     <Wrap>
       <LogoBox>
-        <LogoText className={dosis.variable}>T</LogoText>
+        <LogoText>홈</LogoText>
       </LogoBox>
-      {/* <Search /> */}
     </Wrap>
   );
 };

@@ -1,4 +1,19 @@
 {
-  "typescript.tsdk": "../../node_modules/.pnpm/typescript@5.0.4/node_modules/typescript/lib",
-  "typescript.enablePromptUseWorkspaceTsdk": true
+  "editor.formatOnSave": false,
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "vitest.include": [
+    "**/*.{test}.{js,mjs,cjs,ts,mts,cts,jsx,tsx}"
+  ],
+  "vitest.exclude": [
+    "**/node_modules/**",
+    "**/dist/**",
+    "**/cypress/**",
+    "**/.{idea,git,cache,output,temp}/**",
+    "**/__e2e__/**"
+  ]
 }

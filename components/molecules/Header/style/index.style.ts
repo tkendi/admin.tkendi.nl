@@ -2,26 +2,23 @@ import { styled } from '@/styles/stitches.config';
 import { Text } from '@/components/atoms/Text';
 
 export const Wrap = styled('div', {
-  width: 'calc(100% - 30px)',
+  width: 'calc(100% - 72px)',
+  height: "54px",
   display: 'flex',
-  alignItems: 'center',
-  justifyContent: 'space-between',
-  padding: '15px',
-  marginBottom: '30px',
+  alignItems: "center",
+  margin: "0 auto",
   backgroundColor: '#fefefe',
 });
 
 export const LogoBox = styled('div', {
-  width: '38px',
-  height: '38px',
-  padding: '10px',
+  width: "max-content",
+  height: "max-content",
 });
 
 export const LogoText = styled(Text, {
-  fontFamily: 'var(--dosis-font)',
-  fontSize: '34px',
-  fontWeight: 600,
-  lineHeight: '40px',
-  textAlign: 'center',
+  fontFamily: "SUIT Variable",
+  fontSize: '13px',
+  fontWeight: 500,
+  textAlign: "center",
   color: "$Primary500"
 });

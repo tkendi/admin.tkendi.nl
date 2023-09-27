@@ -6,7 +6,7 @@ import { themes } from '@/styles/theme';
 
 export function Provider({ children }: { children: React.ReactNode }) {
     return (
-        <ThemeProvider defaultTheme="system" value={{ ...themes }}>
+        <ThemeProvider defaultTheme="light" value={{ ...themes }}>
             {children}
         </ThemeProvider>
     );
