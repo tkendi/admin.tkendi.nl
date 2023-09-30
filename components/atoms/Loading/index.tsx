@@ -1,9 +1,10 @@
 import React from 'react';
 import { VscLoading } from 'react-icons/vsc';
 
+import { Wrap } from './styles/index.style';
+
 import { theme } from '@/styles/stitches.config';
 
-import { Wrap } from './styles/index.style';
 
 const Loading = () => {
   const { Info600 } = theme['colors'];

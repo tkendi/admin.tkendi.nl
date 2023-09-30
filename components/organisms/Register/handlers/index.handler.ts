@@ -1,5 +1,7 @@
 import { useRouter } from 'next/router';
 
+import { StatesType } from '../types/states';
+
 import { initializeApollo } from '@/gql/apollo';
 import {
   SignUpUserDocument,
@@ -8,7 +10,6 @@ import {
 } from '@/gql/auth.generated';
 import { useStore } from '@/stores';
 
-import { StatesType } from '../types/states';
 
 const useHandlers = (states: StatesType) => {
   const { replace } = useRouter();

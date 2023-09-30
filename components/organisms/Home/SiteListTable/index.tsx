@@ -1,5 +1,7 @@
 import React from 'react'
+
 import { SitListTable, SiteListTableRow } from './styles/index.style'
+
 import { Text } from '@/components/atoms/Text'
 
 const SiteListTable = () => {

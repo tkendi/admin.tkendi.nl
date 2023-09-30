@@ -1,9 +1,10 @@
 import React from 'react';
 
-import { Text } from '@/components/atoms/Text';
-import Input from '@/components/molecules/Input';
-import Loading from '@/components/atoms/Loading';
 
+import { emailPattern } from '../../atoms/constants/validations';
+
+import useHandlers from './handlers/index.handler';
+import useStates from './states/index.states';
 import {
   ConfirmButtonWrap,
   Container,
@@ -15,9 +16,10 @@ import {
   LoginWrap,
   Wrap,
 } from './styles/index.style';
-import { emailPattern } from '../../atoms/constants/validations';
-import useHandlers from './handlers/index.handler';
-import useStates from './states/index.states';
+
+import Loading from '@/components/atoms/Loading';
+import { Text } from '@/components/atoms/Text';
+import Input from '@/components/molecules/Input';
 
 const LoginOrganism = () => {
   const states = useStates();

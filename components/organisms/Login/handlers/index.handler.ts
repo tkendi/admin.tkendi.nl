@@ -1,7 +1,8 @@
+import { StatesType } from '../types/states';
+
 import { useSignInUserMutation } from '@/gql/auth.generated';
 import { useStore } from '@/stores';
 
-import { StatesType } from '../types/states';
 
 const useHandlers = (states: StatesType) => {
   const { handleDisclosure } = states;

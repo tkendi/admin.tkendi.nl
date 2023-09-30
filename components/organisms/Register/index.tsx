@@ -1,9 +1,9 @@
-import React from 'react';
 import { useRouter } from 'next/router';
+import React from 'react';
 
-import { Text } from '@/components/atoms/Text';
-import Input from '@/components/molecules/Input';
-
+import { REGISTER_INPUT_DATA } from './constants';
+import handlers from './handlers/index.handler';
+import useStates from './states/index.states';
 import {
   Container,
   Progress,
@@ -14,9 +14,10 @@ import {
   SubmitButton,
   Wrap,
 } from './styles/index.style';
-import useStates from './states/index.states';
-import { REGISTER_INPUT_DATA } from './constants';
-import handlers from './handlers/index.handler';
+
+import { Text } from '@/components/atoms/Text';
+import Input from '@/components/molecules/Input';
+
 
 const RegisterOrganism = () => {
   const { push } = useRouter();

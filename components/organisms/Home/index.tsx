@@ -1,8 +1,9 @@
 import React from 'react'
+
+import SiteListTable from './SiteListTable'
 import { SectionTitle } from './styles/index.style'
 
 import { Text } from "@/components/atoms/Text"
-import SiteListTable from './SiteListTable'
 
 const HomeOrganism = () => {
     return (

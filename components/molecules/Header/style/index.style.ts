@@ -1,5 +1,5 @@
-import { styled } from '@/styles/stitches.config';
 import { Text } from '@/components/atoms/Text';
+import { styled } from '@/styles/stitches.config';
 
 export const Wrap = styled('div', {
   width: 'calc(100% - 72px)',
