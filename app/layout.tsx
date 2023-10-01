@@ -1,8 +1,6 @@
 import "@/styles/global.css"
 import { Provider } from './provider';
-
-import { getCssText } from '@/styles/stitches.config';
-
+import { getCssText } from "@/styles/stitches.config";
 
 export const metadata = {
     title: 'Admin',
@@ -17,13 +15,11 @@ export default function RootLayout({
     return (
         <html lang="en" suppressHydrationWarning>
             <head>
+                <link rel="manifest" href="/manifest.json" />
                 <style
                     id="stitches"
-                    dangerouslySetInnerHTML={{ __html: getCssText() }}
+                    dangerouslySetInnerHTML={{ __html: String(getCssText()) }}
                 />
-
-                <link rel="manifest" href="/manifest.json" />
-
                 <link
                     rel="apple-touch-icon"
                     sizes="180x180"
@@ -73,6 +69,6 @@ export default function RootLayout({
             <body>
                 <Provider>{children}</Provider>
             </body>
-        </html >
+        </html>
     );
 }

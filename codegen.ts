@@ -9,7 +9,7 @@ const config: CodegenConfig = {
   schema: envConfig,
   documents: "**/*.gql",
   generates: {
-    "gql/auth.generated.ts": {
+    "gql/admin.generated.ts": {
       plugins: [
         "typescript",
         "typescript-operations",
