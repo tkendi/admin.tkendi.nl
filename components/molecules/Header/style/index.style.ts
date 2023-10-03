@@ -8,7 +8,7 @@ export const Wrap = styled('div', {
   display: 'flex',
   alignItems: "center",
   margin: "0 auto",
-  borderBottom: "1px solid $Primary500",
+  borderBottom: "1px solid $BlueGray100",
   backgroundColor: '#fefefe',
 });
 

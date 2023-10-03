@@ -60,7 +60,7 @@ export const DangerColors = {
 
 export const BaseColors = {
   Black: "#000000",
-  Whitte: "#ffffff",
+  White: "#ffffff",
   BackgroundBlue: "#F9FAFB"
 }
 
