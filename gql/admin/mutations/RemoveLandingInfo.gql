@@ -1,0 +1,3 @@
+mutation RemoveLandingInfo($input: LandingRemoveInput!) {
+  RemoveLandingInfo(input: $input)
+}

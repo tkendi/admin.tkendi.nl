@@ -1,0 +1,3 @@
+mutation RegisterLandingInfo($input: LandingCreateInput!) {
+  RegisterLandingInfo(input: $input)
+}

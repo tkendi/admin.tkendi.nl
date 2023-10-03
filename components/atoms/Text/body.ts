@@ -12,7 +12,7 @@ export const Body1 = styled("p", {
 
 export const Body2 = styled("p", {
     ...BodyCommonCss,
-    fontSize: "14x",
+    fontSize: "14px",
     lineHeight: "22px",
 })
 

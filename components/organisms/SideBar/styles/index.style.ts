@@ -6,7 +6,8 @@ export const Wrap = styled("div", {
     padding: "24px 16px 0px",
     borderColor: "$BlueGray100",
     borderWidth: "1px",
-    borderRightStyle: "solid"
+    borderRightStyle: "solid",
+    flexGrow: 1
 })
 
 export const MenuIconBox = styled("div", {

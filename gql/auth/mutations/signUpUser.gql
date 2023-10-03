@@ -1,8 +1,0 @@
-mutation SignUpUser($input: AuthSignUpInput!) {
-  signUpUser(input: $input) {
-    accessToken
-    refreshToken
-    accessMaxAge
-    refreshMaxAge
-  }
-}

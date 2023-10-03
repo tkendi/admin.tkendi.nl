@@ -1,0 +1,3 @@
+mutation UpdateLandingInfo($input: LandingUpdateInput!) {
+  UpdateLandingInfo(input: $input)
+}
