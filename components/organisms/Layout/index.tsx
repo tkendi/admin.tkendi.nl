@@ -2,9 +2,11 @@
 
 import React, { Suspense, useEffect, useState } from 'react';
 
-import Header from '../Header';
+import Header from '../../molecules/Header';
 
 import { LayoutStyled } from './style/index.style';
+
+import SideBar from '@/components/organisms/SideBar';
 
 const Layout = ({
   children,
@@ -20,6 +22,7 @@ const Layout = ({
     <Suspense fallback={!isSSR && <p>loading...</p>}>
       <LayoutStyled>
         {isHeaderShow && <Header />}
+        <SideBar />
         {children}
       </LayoutStyled>
     </Suspense>

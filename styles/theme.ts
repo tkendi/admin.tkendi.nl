@@ -58,10 +58,36 @@ export const DangerColors = {
   Danger900: '#760B64',
 };
 
+export const BaseColors = {
+  Black: "#000000",
+  Whitte: "#ffffff",
+  BackgroundBlue: "#F9FAFB"
+}
+
+export const PurpleColors = {
+  Purpule500: "#8962F8"
+}
+
+export const BlueGrayColors = {
+  BlueGray50: "#F4F6F9",
+  BlueGray100: "#EBEEF4",
+  BlueGray200: "#DCE0E9",
+  BlueGray300: "#C7CDD7",
+  BlueGray400: "#A2ACBD",
+  BlueGray500: "#6F798E",
+  BlueGray600: "#596378",
+  BlueGray700: "#404A5F",
+  BlueGray800: "#2E3647",
+  BlueGray900: "#1B2334"
+}
+
 export const themes = {
   ...PrimaryColors,
   ...SuccessColors,
   ...InfoColors,
   ...WarningColors,
   ...DangerColors,
+  ...BaseColors,
+  ...PurpleColors,
+  ...BlueGrayColors
 };
