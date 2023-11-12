@@ -1,8 +1,9 @@
 import React from 'react'
+
+import SiteListTable from './SiteListTable'
 import { ImageButtonWrap, ImagePreivewButton, ImageUploadButton, TitleSection, UploadButton, Wrap } from './styles/index.style'
 
 import { BodyText, HeadingText } from '@/components/atoms/Text'
-import SiteListTable from './SiteListTable'
 
 const WebManageOrganism = () => {
     const { Heading1 } = HeadingText

@@ -2,8 +2,8 @@ import React from 'react'
 
 import { SitListTable, SiteListTableBody, SiteListTableRow } from './styles/index.style'
 
-import { BodyText } from '@/components/atoms/Text'
 import { EditBdage, RemoveBadge } from '@/components/atoms/Badge'
+import { BodyText } from '@/components/atoms/Text'
 
 const SiteListTable = () => {
     const { Body2 } = BodyText

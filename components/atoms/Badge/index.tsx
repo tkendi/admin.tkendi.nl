@@ -1,6 +1,8 @@
 import React from 'react'
-import { Wrap } from './styles/index.style'
+
 import { BodyText, CaptionText } from '../Text'
+
+import { Wrap } from './styles/index.style'
 
 interface Props {
     type: "edit" | "remove"
