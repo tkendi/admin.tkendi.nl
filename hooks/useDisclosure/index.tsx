@@ -1,4 +1,4 @@
-import { useCallback, useState } from 'react';
+import { useCallback, useState } from "react";
 
 /**
  * @author tkendi
@@ -20,7 +20,7 @@ const useDisclosure = () => {
    */
 
   const handleDisclosure = useCallback(() => {
-    setDisclosure((v) => !v);
+    setDisclosure(v => !v);
   }, []);
 
   /**

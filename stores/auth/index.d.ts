@@ -10,4 +10,4 @@ interface AuthHandlersType {
   clearStorage: () => void;
 }
 
-export interface AuthStoreType extends AuthStatesType, AuthHandlersType { }
+export interface AuthStoreType extends AuthStatesType, AuthHandlersType {}

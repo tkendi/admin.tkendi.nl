@@ -1,16 +1,16 @@
-'use client'
+"use client";
 
-import React from 'react'
+import React from "react";
 
-import Layout from '@/components/organisms/Layout'
-import WebManageTemplate from '@/components/templates/Web/manage'
+import Layout from "@/components/organisms/Layout";
+import WebManageTemplate from "@/components/templates/Web/manage";
 
 const MangePage = () => {
-    return (
-        <Layout>
-            <WebManageTemplate />
-        </Layout>
-    )
-}
+  return (
+    <Layout>
+      <WebManageTemplate />
+    </Layout>
+  );
+};
 
-export default MangePage
+export default MangePage;

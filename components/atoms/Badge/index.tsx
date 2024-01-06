@@ -1,33 +1,29 @@
-import React from 'react'
+import React from "react";
 
-import { BodyText, CaptionText } from '../Text'
+import { BodyText, CaptionText } from "../Text";
 
-import { Wrap } from './styles/index.style'
+import { Wrap } from "./styles/index.style";
 
 interface Props {
-    type: "edit" | "remove"
-    name: string;
+  type: "edit" | "remove";
+  name: string;
 }
 
 const Badge = ({ name, type }: Props) => {
-    const { Body1 } = BodyText
-    return (
-        <Wrap type={type}>
-            <Body1>{name}</Body1>
-        </Wrap>
-    )
-}
+  const { Body1 } = BodyText;
+  return (
+    <Wrap type={type}>
+      <Body1>{name}</Body1>
+    </Wrap>
+  );
+};
 
-export default Badge
+export default Badge;
 
 export const EditBdage = () => {
-    return (
-        <Badge type="edit" name="수정" />
-    )
-}
+  return <Badge type="edit" name="수정" />;
+};
 
 export const RemoveBadge = () => {
-    return (
-        <Badge type="remove" name="삭제" />
-    )
-}
+  return <Badge type="remove" name="삭제" />;
+};

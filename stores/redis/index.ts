@@ -1,6 +1,6 @@
-import { StateStorage } from 'zustand/middleware';
+import { StateStorage } from "zustand/middleware";
 
-import { getRedisValue, setRedisValue } from '@/lib/redis';
+import { getRedisValue, setRedisValue } from "@/lib/redis";
 
 const debouncePersist = (name: string, value: string) => {
   setTimeout(async () => {

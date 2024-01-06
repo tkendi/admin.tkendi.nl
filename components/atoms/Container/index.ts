@@ -1,15 +1,15 @@
-import { breakPoints } from '@/styles/breakPoints';
-import { styled } from '@/styles/stitches.config';
+import { breakPoints } from "@/styles/breakPoints";
+import { styled } from "@/styles/stitches.config";
 
-export const Container = styled('div', {
+export const Container = styled("div", {
   maxWidth: breakPoints.lg,
-  margin: '0 auto',
+  margin: "0 auto",
 
-  '@me': {
+  "@me": {
     maxWidth: breakPoints.me,
   },
 
-  '@sm': {
+  "@sm": {
     maxWidth: breakPoints.sm,
   },
 });

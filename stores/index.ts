@@ -1,4 +1,4 @@
-import { authStore } from './auth';
+import { authStore } from "./auth";
 
 export const useStore = () => {
   return {

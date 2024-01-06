@@ -1,7 +1,7 @@
-import React from 'react';
-import { FiSearch } from 'react-icons/fi';
+import React from "react";
+import { FiSearch } from "react-icons/fi";
 
-import { SearchIconWrap, Wrap } from './style/index.style';
+import { SearchIconWrap, Wrap } from "./style/index.style";
 
 const Search = () => {
   return (

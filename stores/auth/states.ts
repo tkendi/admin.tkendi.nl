@@ -1,6 +1,6 @@
 const initialState = {
-  accessToken: '',
-  refreshToken: '',
+  accessToken: "",
+  refreshToken: "",
 } as const;
 
 export default initialState;

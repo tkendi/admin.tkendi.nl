@@ -1,7 +1,7 @@
-import { Dosis } from 'next/font/google';
-import React from 'react';
+import { Dosis } from "next/font/google";
+import React from "react";
 
-import { LogoBox, LogoSymbolText, LogoText, Wrap } from './style/index.style';
+import { LogoBox, LogoSymbolText, LogoText, Wrap } from "./style/index.style";
 
 const Header = () => {
   return (

@@ -1,9 +1,8 @@
-import React from 'react';
+import React from "react";
 
-import { Wrap } from './styles/index.style';
+import { Wrap } from "./styles/index.style";
 
-import { Text } from '@/components/atoms/Text';
-
+import { Text } from "@/components/atoms/Text";
 
 const StatusBadge = ({ title, status }: StatusBadgeProps) => {
   return (

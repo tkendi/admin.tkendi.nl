@@ -1,9 +1,7 @@
-import WebManageOrganism from "@/components/organisms/Web/manage"
+import WebManageOrganism from "@/components/organisms/Web/manage";
 
 const WebManageTemplate = () => {
-    return (
-        <WebManageOrganism />
-    )
-}
+  return <WebManageOrganism />;
+};
 
-export default WebManageTemplate
+export default WebManageTemplate;

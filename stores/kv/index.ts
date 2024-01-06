@@ -1,6 +1,6 @@
-import { StateStorage } from 'zustand/middleware';
+import { StateStorage } from "zustand/middleware";
 
-import { getKvValue, setKvValue } from '@/lib/kv/kvClient';
+import { getKvValue, setKvValue } from "@/lib/kv/kvClient";
 
 const debouncePersist = (name: string, value: string) => {
   setTimeout(async () => {

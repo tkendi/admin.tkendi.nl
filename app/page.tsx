@@ -1,24 +1,22 @@
-"use client"
+"use client";
 
-import { NextPage } from 'next';
-import { useRouter } from 'next/navigation';
-import React, { useEffect } from 'react';
+import { NextPage } from "next";
+import { useRouter } from "next/navigation";
+import React, { useEffect } from "react";
 
-import Layout from '@/components/organisms/Layout';
+import Layout from "@/components/organisms/Layout";
 
 const Home: NextPage = () => {
-  const { push } = useRouter()
+  const { push } = useRouter();
   const redirectURL = () => {
-    push("/web")
-  }
+    push("/web");
+  };
 
   useEffect(() => {
-    redirectURL()
-  }, [])
+    redirectURL();
+  }, []);
 
-  return (
-    <Layout />
-  );
+  return <Layout />;
 };
 
 export default Home;

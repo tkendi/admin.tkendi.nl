@@ -1,7 +1,7 @@
-import { createStitches } from '@stitches/react';
+import { createStitches } from "@stitches/react";
 
-import { generateMdeia } from './breakPoints/createMedia';
-import { themes } from './theme';
+import { generateMdeia } from "./breakPoints/createMedia";
+import { themes } from "./theme";
 
 export const {
   styled,

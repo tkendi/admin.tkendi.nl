@@ -1,13 +1,13 @@
-import React from 'react';
-import { IoCloseCircleOutline } from 'react-icons/io5';
+import React from "react";
+import { IoCloseCircleOutline } from "react-icons/io5";
 
 import {
   StyledClearButtonWrap,
   StyledInput,
   StyledInputLabel,
   StyledInputWrap,
-} from './styles/index.style';
-import { FormInputProps } from './types/props';
+} from "./styles/index.style";
+import { FormInputProps } from "./types/props";
 
 const Input = <TFormValues extends Record<string, unknown>>({
   placeholder,

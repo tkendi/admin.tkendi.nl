@@ -1,22 +1,22 @@
-"use client"
+"use client";
 
-import React, { Suspense, useEffect, useState } from 'react';
+import React, { Suspense, useEffect, useState } from "react";
 
-import Header from '../../molecules/Header';
+import Header from "../../molecules/Header";
 
-import { LayoutChildrenWrap, LayoutStyled } from './style/index.style';
+import { LayoutChildrenWrap, LayoutStyled } from "./style/index.style";
 
-import SideBar from '@/components/organisms/SideBar';
+import SideBar from "@/components/organisms/SideBar";
 
 const Layout = ({
   children,
   isHeaderShow = true,
 }: React.PropsWithChildren<LayoutProps>) => {
-  const [isSSR, setIsSSR] = useState(false)
+  const [isSSR, setIsSSR] = useState(false);
 
   useEffect(() => {
-    setIsSSR(true)
-  }, [])
+    setIsSSR(true);
+  }, []);
 
   return (
     <Suspense fallback={!isSSR && <p>loading...</p>}>
